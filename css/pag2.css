@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.titles{
+  font-family: "Quicksand", sans-serif;
+}
+
+.titles > h1 {
+  color: #FFFFFF;
+  font-weight: 700;
+  text-align:center;
+  
+}
+
+.titles > h2 {
+  text-align:center;
+  font-style: normal;
+  color:#FFFFFF;
+}
+
+body{
+  background-color:#1f1e1ec5;
+}
+
+.container{
+  font-weight: 700;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  color:black;
+  font-style: normal;
+  flex-wrap: wrap;
+  font-family: "Quicksand", sans-serif;
+}
+
+.book{
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+}
+.book h2{
+  color: #FFFFFF;
+  font-size: 18px;
+  text-align: left;
+}
+
+.diario{
+  color: #FFFFFF;
+  font-weight: 700;
+  text-align:center;
+}
+.diario1{
+  width: 42%;
+  right: 30%;
+  display: flex;
+  align-items: center; 
+  border: 4px solid rgb(144, 22, 22);   
+}
+.diario2{
+  width: 42%;
+  right: 30%;
+  display: flex;
+  align-items: center; 
+  border: 4px solid rgb(35, 4, 94);   
+}
+.diario3{
+  width: 42%;
+  right: 30%;
+  display: flex;  
+  align-items: center; 
+  border: 4px solid rgb(3, 75, 13);   
+}
+.diario4{
+  width: 42%;
+  right: 30%;
+  display: flex;
+  align-items: center; 
+  border: 4px solid rgb(219, 189, 35);   
+}
+.diario5{
+  width: 42%;
+  right: 30%;
+  display: flex;
+  align-items: center; 
+  border: 4px solid rgb(79, 29, 92);   
+}
+.diario6{
+  width: 42%;
+  right: 30%;
+  display: flex;
+  align-items: center; 
+  border: 4px solid rgb(29, 101, 146);   
+}
+.diario7{
+  width: 42%;
+  right: 30%;
+  display: flex;
+  align-items: center; 
+  border: 4px solid rgb(142, 52, 25);   
+}
+.diario8{
+  width: 42%;
+  right: 30%;
+  display: flex;
+  align-items: center; 
+  border: 4px solid rgb(165, 213, 31);   
+}
+.diario9{
+  width: 42%;
+  right: 30%;
+  display: flex;
+  align-items: center; 
+  border: 4px solid rgb(204, 110, 9);   
+}
+.diario10{
+  width: 42%;
+  right: 30%;
+  display: flex;
+  align-items: center; 
+  border: 4px solid rgb(16, 17, 18);   
+}
+.diario11{
+  width: 42%;
+  right: 30%;
+  display: flex;
+  align-items: center; 
+  border: 4px solid rgb(219, 62, 31);   
+}
+.diario12{
+  width: 42%;
+  right: 30%;
+  display: flex;
+  align-items: center; 
+  border: 4px solid rgb(50, 114, 154);   
+}
+.rodape{
+  text-align: center;
+  background-color: #ffffff3a;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  width: 150px;
+  align-items: left;
+  justify-content: center;
+  text-decoration: none;
+  color: #082440;
+}

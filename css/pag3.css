@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.titles{
+  font-family: "Quicksand", sans-serif;
+}
+
+.titles > h1 {
+  color: #FFFFFF;
+  font-weight: 700;
+  text-align:center;
+  
+}
+
+.titles > h2 {
+  text-align:center;
+  font-style: normal;
+  color:#FFFFFF;
+}
+
+body{
+  background-color:#1f1e1ec5;
+}
+
+.container{
+  font-weight: 700;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  color:black;
+  font-style: normal;
+  flex-wrap: wrap;
+  font-family: "Quicksand", sans-serif;
+}
+
+.book{
+  width: 31%;
+  display: flex;
+  flex-direction: column;
+}
+.book h2{
+  color: #FFFFFF;
+  font-size: 18px;
+  text-align: left;
+}
+
+.ceifador{ 
+  width: 48%;
+  right: 40%;
+  display: flex;
+  align-items: center;    
+  border: 4px solid rgb(53, 13, 4);
+}
+.nuvem{ 
+  width: 55%;
+  right: 40%;
+  display: flex;
+  align-items: center;    
+  border: 4px solid rgb(16, 75, 61);
+}
+.timbre{ 
+  width: 52%;
+  right: 40%;
+  display: flex;
+  align-items: center;    
+  border: 4px solid rgb(6, 59, 31);
+}
+.rodape{
+  text-align: center;
+  background-color: #ffffff3a;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  width: 150px;
+  align-items: left;
+  justify-content: center;
+  text-decoration: none;
+  color: #082440;
+  margin-top: 18%;
+}
