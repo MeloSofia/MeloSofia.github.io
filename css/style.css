@@ -7,7 +7,13 @@
 .titles > h1 {
   color: #FFFFFF;
   font-weight: 700;
-  text-align:center;
+  position: relative;
+  left: 720px;
+  text-align: center;
+  padding: 5px;
+  background-color: rgba(59, 74, 82, 0.649);
+  border-radius: 50px;
+  width: 380px;
   
 }
 
