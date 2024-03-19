@@ -8,19 +8,25 @@
   color: #FFFFFF;
   font-weight: 700;
   position: relative;
-  left: 720px;
+  left: 650px;
   text-align: center;
   padding: 5px;
-  background-color: rgba(59, 74, 82, 0.649);
+  background-color: rgba(51, 63, 70, 0.649);
   border-radius: 50px;
-  width: 380px;
+  width: 383px;
   
 }
 
 .titles > h2 {
-  text-align:center;
   font-style: normal;
   color:#FFFFFF;
+  background-color: rgba(62, 73, 80, 0.649);
+  border-radius: 50px;
+  width: 263px;
+  position: relative;
+  text-align: center;
+  padding: 5px;
+  left: 720px;
 }
 
 body{

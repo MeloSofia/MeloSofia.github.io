@@ -7,7 +7,13 @@
 .titles > h1 {
   color: #FFFFFF;
   font-weight: 700;
-  text-align:center;
+  background-color: rgba(93, 13, 13, 0.649);
+  border-radius: 50px;
+  width: 403px;
+  position: relative;
+  text-align: center;
+  padding: 5px;
+  left: 720px;
   
 }
 
@@ -18,7 +24,7 @@
 }
 
 body{
-  background-color:#1f1e1ec5;
+  background-color:#391212c5;
 }
 
 .container{
