@@ -8,6 +8,13 @@
   color: #FFFFFF;
   font-weight: 700;
   text-align:center;
+  background-color: rgba(18, 55, 41, 0.649);
+  border-radius: 50px;
+  width: 383px;
+  position: relative;
+  text-align: center;
+  padding: 5px;
+  left: 700px;
   
 }
 
@@ -18,7 +25,7 @@
 }
 
 body{
-  background-color:#1f1e1ec5;
+  background-color:#09160cc2;
 }
 
 .container{
