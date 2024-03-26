@@ -150,3 +150,7 @@ body{
   text-decoration: none;
   color: #082440;
 }
+.rodape:hover{
+  font-size: 20px;
+  background-color: rgb(125, 65, 48);
+}

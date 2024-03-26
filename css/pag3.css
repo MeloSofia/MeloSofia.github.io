@@ -84,3 +84,7 @@ body{
   color: #082440;
   margin-top: 18%;
 }
+.rodape:hover{
+  font-size: 20px;
+  background-color: rgb(65, 91, 64);
+}
