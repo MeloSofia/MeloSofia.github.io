@@ -1,26 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-
-.titles{
+*{
   font-family: "Quicksand", sans-serif;
+  margin: 0%;
+  padding: 0%;
+  border: 0;
 }
-
-.titles > h1 {
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #FFFFFF;
   font-weight: 700;
-  background-color: rgba(93, 13, 13, 0.649);
-  border-radius: 50px;
-  width: 403px;
-  position: relative;
-  text-align: center;
-  padding: 5px;
-  left: 720px;
-  
-}
+  margin-top: 15px;
 
-.titles > h2 {
-  text-align:center;
-  font-style: normal;
-  color:#FFFFFF;
+}
+.title > h2{
+  border-radius: 50px;
+  background-color: rgba(93, 13, 13, 0.649);
+  font-weight: normal;
+  padding: 5px;
+  width: 383px;
+  text-align: center;
+  
 }
 
 body{
@@ -28,6 +29,7 @@ body{
 }
 
 .container{
+  margin-top: 35px;
   font-weight: 700;
   display: flex;
   justify-content: right;
@@ -60,6 +62,7 @@ body{
   display: flex;
   align-items: center; 
   border: 4px solid rgb(144, 22, 22);   
+  margin-bottom: 35px;  
 }
 .diario2{
   width: 42%;
@@ -67,34 +70,39 @@ body{
   display: flex;
   align-items: center; 
   border: 4px solid rgb(35, 4, 94);   
+  margin-bottom: 35px;  
 }
 .diario3{
   width: 42%;
   right: 30%;
   display: flex;  
   align-items: center; 
-  border: 4px solid rgb(3, 75, 13);   
+  border: 4px solid rgb(3, 75, 13); 
+  margin-bottom: 35px;    
 }
 .diario4{
   width: 42%;
   right: 30%;
   display: flex;
   align-items: center; 
-  border: 4px solid rgb(219, 189, 35);   
+  border: 4px solid rgb(219, 189, 35);
+  margin-bottom: 35px;   
 }
 .diario5{
   width: 42%;
   right: 30%;
   display: flex;
   align-items: center; 
-  border: 4px solid rgb(79, 29, 92);   
+  border: 4px solid rgb(79, 29, 92);  
+  margin-bottom: 35px;   
 }
 .diario6{
   width: 42%;
   right: 30%;
   display: flex;
   align-items: center; 
-  border: 4px solid rgb(29, 101, 146);   
+  border: 4px solid rgb(29, 101, 146);  
+  margin-bottom: 35px;   
 }
 .diario7{
   width: 42%;
@@ -102,6 +110,7 @@ body{
   display: flex;
   align-items: center; 
   border: 4px solid rgb(142, 52, 25);   
+  margin-bottom: 35px;  
 }
 .diario8{
   width: 42%;
@@ -109,13 +118,16 @@ body{
   display: flex;
   align-items: center; 
   border: 4px solid rgb(165, 213, 31);   
+  margin-bottom: 35px;  
 }
 .diario9{
   width: 42%;
   right: 30%;
   display: flex;
   align-items: center; 
-  border: 4px solid rgb(204, 110, 9);   
+  border: 4px solid rgb(204, 110, 9);
+  margin-bottom: 35px;  
+  margin-bottom: 35px;     
 }
 .diario10{
   width: 42%;
@@ -123,6 +135,7 @@ body{
   display: flex;
   align-items: center; 
   border: 4px solid rgb(16, 17, 18);   
+  margin-bottom: 35px;  
 }
 .diario11{
   width: 42%;
@@ -130,6 +143,7 @@ body{
   display: flex;
   align-items: center; 
   border: 4px solid rgb(219, 62, 31);   
+  margin-bottom: 35px;  
 }
 .diario12{
   width: 42%;
@@ -137,13 +151,13 @@ body{
   display: flex;
   align-items: center; 
   border: 4px solid rgb(50, 114, 154);   
+  margin-bottom: 35px;  
 }
 .rodape{
   text-align: center;
   background-color: #ffffff3a;
-  padding: 5px;
+  padding: 10px 15px;
   border-radius: 10px;
-  display: flex;
   width: 150px;
   align-items: left;
   justify-content: center;
@@ -153,4 +167,33 @@ body{
 .rodape:hover{
   font-size: 20px;
   background-color: rgb(125, 65, 48);
+}
+.menu{
+  display: flex;
+  background-color: rgba(115, 42, 36, 0.447);
+  padding: 15px;
+  justify-content: space-around;
+  font-weight: 600;
+}
+.tela{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+
+}
+.ceif{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.tela:hover{
+  color: rgb(117, 18, 5);
+  font-size: 22px;
+}
+.ceif:hover{
+  color: rgb(117, 18, 5);
+  font-size: 22px;
+}
+
+li{
+  display: inline;
+  font-size: 20px;
 }
