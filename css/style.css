@@ -262,7 +262,6 @@ body{
 }
 .menu{
   display: flex;
-  background-color: rgba(54, 95, 129, 0.89);
   padding: 15px;
   justify-content: space-around;
   font-weight: 600;
@@ -270,11 +269,14 @@ body{
 .colecao{
   color: rgb(255, 255, 255);
   text-decoration: none;
+  margin-right: 105px;
+  font-weight: normal;
 
 }
 .ceif{
   color: rgb(255, 255, 255);
   text-decoration: none;
+  font-weight: normal;
 }
 .colecao:hover{
   color: #091b40;
@@ -289,4 +291,73 @@ li{
   display: inline;
   font-size: 20px;
 }
+.principal{
+  display: flex;
+  background-color: rgba(54, 95, 129, 0.89);
+  justify-content: space-around;
+}
+.livro{
+  width: 35px;
+  margin-right: 335px;
+}
+.img{
+  transition: all ease-in-out 0.2s;
+}
+.img:hover{
+  transition: all ease-in-out 0.2s;
+  box-shadow:0px 0px 20px 0px #ffffff;
+}
+.rodape{
+  width: 99.4%;
+  text-align: center;
+  background-color: rgba(54, 95, 129, 0.89);
+  padding: 25px 5px;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  color: #ffffff;
+  margin-top: 5%;
+  flex-direction: column;
 
+}
+.rodape h4{
+  font-weight: 500;
+}
+
+.contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tel{
+  width: 24px;
+  margin-right: 10px;
+  margin-top: 2px;
+}
+.git{
+  width: 24px;
+  margin-right: 10px;
+}
+.ifro{
+  width: 14px; 
+  margin-right: 10px;
+}
+.contact2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link{
+  text-decoration: none;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.link:hover{
+  color:#091b40;
+}
+.local{
+  margin-top: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
