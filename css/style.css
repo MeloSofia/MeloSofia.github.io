@@ -291,7 +291,7 @@ li{
   display: inline;
   font-size: 20px;
 }
-.principal{
+.lncipal{
   display: flex;
   background-color: rgba(54, 95, 129, 0.89);
   justify-content: space-around;
