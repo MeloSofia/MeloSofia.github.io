@@ -44,7 +44,7 @@ position: absolute;
 max-height: 0;
 overflow: hidden;
 left: 10px;
-background-color: rgb(0, 47, 255);
+background-color: rgb(80, 92, 145);
 border-radius: 5px;
 transition: .5s;
 }
@@ -55,7 +55,7 @@ list-style-type: none;
 
 .link-sub-menu{
 font-size: 18px;
-color:rgb(255, 5, 5) ;
+color:rgb(255, 255, 255) ;
 }
 
 .link-menu:hover{
